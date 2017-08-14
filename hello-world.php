@@ -5,16 +5,9 @@
 // It's been provided as a convenience to get you started writing code faster.
 //
 
-function helloWorld($name = null)
+function helloWorld()
 {
-  if ($name === null) {
-      return "Hello, World!";
-  } else {
-      return helloWorldWithValidName($name);
-  }
+  // use return rather than echo
+  return "Hello, World!";
 }
-
-
-function helloWorldWithValidName($name) {
-  return sprintf("Hello, %s!", $name);
-}
+  
